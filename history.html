@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <main>
+            <div class="main-title" id="main-title-id">
+                <!--<a href="index.html"><h1><span>S</span><span>u</span><span>p</span><span>e</span><span>r</span> <span>M</span><span>a</span><span>r</span><span>i</span><span>o</span></h1></a>-->
+                <a href="index.html">
+                    <h1>Super Mario</h1>
+                </a>
+                <!-- <p>History, information, daily quizzes, and more - all for Mario fans!</p> -->
+            </div>
+        </main>
+        <!-- <hr> -->
+        <!-- Desktop-->
+        <div id="nav">
+            <nav id="nav1">
+                <ul>
+                    <li id="about"><a href="index.html">ABOUT</a></li>
+                    <li id="history" class="active"><a href="history.html" class="active">HISTORY</a></li>
+                    <li id="quiz"><a href="quiz.html">QUIZ</a></li>
+                    <li id="news"><a href="news.html">NEWS</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Mobile-->
+        <div id="nav2">
+            <p id="dropdown">
+                <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <span id="google-dropdown" class="material-symbols-outlined">
+                        menu
+                    </span>
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <nav class="mobile">
+                        <ul>
+                            <li id="about-dd"><a href="index.html">ABOUT</a></li>
+                            <li id="history-dd" class="active"><a href="history.html" class="active">HISTORY</a></li>
+                            <li id="quiz-dd"><a href="quiz.html">QUIZ</a></li>
+                            <li id="news-dd"><a href="news.html">NEWS</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <section id="history-section">
+            <h2>Who created Mario?</h2>
+            <div class="divider"> 1985 </div>
+            <img id="mariobros" src="supermariobros.webp" alt="Super Mario Bros">
+            <p>Super Mario was created by Shigeru Miyamoto.<br>Initially known as Jumpman, later, Nintendo President Minoru Arawaka renamed him after the owner of Nintendo's first warehouse.<br>In 1985, he made his debut in the first game entirely dedicated to him, titled "Super Mario Bros.".<br></p>
+            <div class="divider"> 1996 </div>
+            <img id="mario64" src="mario64.jpg" alt="Super Mario 64">
+            <p>With tremendous success, Mario ventured into the 3D gaming realm in 1996 with his first 3D game, "Super Mario 64".<br>This game set a new standard for 3D platformers and will be remembered for its revolution in the world of video games.<br></p>
+            <div class="divider"> 2017 </div>
+            <img id="marioodyssey" src="marioodyssey.jpg" alt="Super Mario Odyssey">
+            <p>
+                Super Mario Odyssey, released in 2017 for the Nintendo Switch, continued Mario's legacy.<br>In this game, Mario explores various kingdoms, using a magical hat named Cappy to possess objects and enemies.<br>The game received widespread acclaim for its innovative gameplay and design, adding another successful chapter to the iconic Super Mario series.<br>
+            </p>
+        </section>
+
+        <footer>
+            <p>Maksim © 2023 - CS50x</p>
+        </footer>
+    </body>
+
+</html>

@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;400&family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Handlee&family=Mukta:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Handlee&family=Mukta:wght@200;300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=DM+Sans:opsz,wght@9..40,600&family=Handlee&family=Mukta:wght@200;300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,600&family=Handlee&family=Mukta:wght@200;300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=DM+Sans:opsz,wght@9..40,700&family=Handlee&family=Mukta:wght@200;300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Work+Sans:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 150%;
+    width: 100%;
+}
+
+html,
+body {
+    min-height: 800px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+#google-dropdown {
+    color: black;
+    margin: 20px auto;
+    max-width: 100%;
+    margin-bottom: -30px;
+    font-size: 40px;
+}
+
+body {
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url('background.webp');
+    background-size: 30%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-title h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 200%;
+    text-shadow: 1px 1px 1px #000000;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#main-title-id {
+    border-bottom: 1.8px solid black;
+    width: 100%;
+    background-color: #ff001b;
+    min-width: 200px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.main-title h1 span:nth-child(1) {
+    color: #059cdc
+}
+
+.main-title h1 span:nth-child(2) {
+    color: #ffd200
+}
+
+.main-title h1 span:nth-child(3) {
+    color: #e92516
+}
+
+.main-title h1 span:nth-child(4) {
+    color: #46ad37
+}
+
+.main-title h1 span:nth-child(5) {
+    color: #ffd200
+}
+
+.main-title h1 span:nth-child(6) {
+    color: #e92516
+}
+
+.main-title h1 span:nth-child(7) {
+    color: #46ad37
+}
+
+.main-title h1 span:nth-child(8) {
+    color: #ffd200
+}
+
+.main-title h1 span:nth-child(9) {
+    color: #059cdc
+}
+
+.main-title h1 span:nth-child(10) {
+    color: #46ad37
+}
+
+.main-title a {
+    text-decoration: none;
+}
+
+.main-title p {
+    font-family: 'Comic Neue', cursive;
+    margin: 0 auto;
+}
+
+#nav {
+    border-bottom: 1px solid;
+    background-color: white;
+    min-width: 200px;
+    margin: 0 auto 50px;
+}
+
+#nav1 {
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    width: 100vw;
+    background-color: white;
+}
+
+#nav1 ul {
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    margin: 8px;
+    padding: 0;
+}
+
+#nav1 li {
+    float: none;
+    display: inline-block;
+    margin: 0px 5px;
+    transition: transform 0.1s;
+}
+
+#nav2 {
+    min-width: 200px;
+}
+
+
+nav a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #cc0015;
+    text-decoration: none;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.mobile nav {
+    display: block;
+    overflow: hidden
+}
+
+.mobile ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.collapse {
+    min-width: 200px;
+}
+
+.card {
+    margin-top: -20px;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    min-width: 200px;
+}
+
+.active {
+    color: gray;
+    pointer-events: none;
+}
+
+.mobile li {
+    transition: transform 0.1s;
+}
+
+
+
+
+section {
+    font-size: 100%;
+    background-color: white;
+    min-width: 200px;
+    width: 60%;
+    max-width: 900px;
+    box-sizing: border-box;
+    text-align: left;
+    margin: auto auto 50px;
+    padding: 20px 30px;
+    border: 1px solid black;
+    box-shadow: 2.5px 5px gray;
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+section p {
+    overflow-wrap: break-word;
+    margin: 30px 20px 20px 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: #0a0a0a;
+}
+
+section h2 {
+    text-align: center;
+}
+
+
+
+#mariodesk {
+
+    float: right;
+    margin: auto 20px auto 20px;
+    margin-top: 30px;
+    border: 2px solid black;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    padding: 30px;
+    display: block;
+
+}
+
+#mariomob {
+
+    margin: 30px auto;
+    border: 2px solid black;
+    width: 170px;
+    max-width: 100%;
+    height: auto;
+    padding: 30px;
+    display: block;
+
+}
+
+#mariobros,
+#mario64,
+#marioodyssey {
+    margin: 30px auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+form p {
+    font-size: 90%;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+
+}
+
+form input {
+    padding-left: 15px;
+    text-align: left;
+    display: block;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    border: 2px solid #c8c8cc;
+    animation: none;
+    transition: none;
+    transition: background-color 1s ease;
+    transition: border-color 1s ease;
+    transition: transform 0.1s;
+    -webkit-transition: all 0.3s ease-in;
+}
+
+.enabled-active:active {
+    border: 2px solid #c8c8cc;
+    transform: scale(1.01);
+}
+
+
+.enabled-hover:hover {
+    border-color: black;
+    background-color: #f2f2f2;
+}
+
+.next {
+    font-size: 80%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    float: right;
+    margin: 20px 0px 10px;
+    width: 100px;
+    border: none;
+    -webkit-transition: all 0.3s ease-in;
+}
+
+
+form div {
+    margin-bottom: 10px;
+    color: #169077;
+    font-size: 80%;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+}
+
+form hr {
+    margin: 0;
+}
+
+.questions {
+    display: none;
+}
+
+#start {
+    display: block;
+}
+
+#start-button {
+    background-color: #cfffd6;
+    font-size: 100%;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 30px auto 20px;
+    width: 150px;
+    -webkit-transition: all 0.1s ease-in;
+}
+
+#start p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#quiz-section {
+    margin: auto auto;
+    max-width: 1000px;
+    width: 40%;
+}
+
+#news-section {
+    margin: auto auto;
+}
+
+
+
+#bar {
+    text-align: center;
+}
+
+.progress .progress-bar {
+    background-color: #1dcd6e;
+}
+
+#try {
+    background-color: #cfffd6;
+    font-size: 100%;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 40px auto 20px;
+    width: 150px;
+    border: 1px solid black;
+    -webkit-transition: all 0.1s ease-in;
+}
+
+#correctness {
+    margin: 0;
+    text-align: center;
+    font-size: 80%;
+}
+
+#try:hover {
+    transform: scale(1.05);
+}
+
+#news-section {
+    padding: 50px;
+    width: 30%;
+}
+
+#news-section form input[type="email"] {
+    border: none;
+    background-color: white;
+    border-bottom: 1.5px solid black;
+    border-radius: 0;
+    padding-left: 10px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+#news-section form label {
+    font-size: 70%;
+    position: relative;
+    bottom: -10px;
+    left: 0px;
+    font-weight: 600;
+}
+
+#news-section form input[type="email"]:focus {
+    outline: none;
+    background-color: white;
+    border-bottom: 1.5px solid black;
+    border-radius: 0;
+}
+
+#news-section form input[type="email"]::placeholder {
+    font-size: 80%;
+    overflow: visible;
+}
+
+#news-section form input[type="submit"] {
+    font-size: 70%;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    background-color: #dedede;
+
+}
+
+#news-section form input[type="submit"]:active {
+    transform: scale(1.005);
+    transition: transform 0.1s
+}
+
+footer {
+    font-size: 70%;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+    padding: 2rem;
+}
+
+footer p {
+    margin: 3px auto;
+}
+
+footer hr {
+    width: 15%;
+    margin: 5px auto 2px;
+}
+
+.divider {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
+
+.divider::before,
+.divider::after {
+    flex: 1;
+    content: '';
+    padding: 0.5px;
+    background-color: black;
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 915px) {
+    #mariodesk {
+        display: none;
+    }
+
+    section {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    #about-section {
+        margin: auto auto;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    #main-title-id {
+        margin-bottom: 20px;
+    }
+
+    #mariomob {
+        width: 160px;
+    }
+
+    #mariobros,
+    #mario64,
+    #marioodyssey {
+        padding: 0;
+        width: 100%;
+    }
+
+    #news-section {
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 916px) {
+    #mariomob {
+        display: none;
+    }
+
+    #quiz-section,
+    #news-section {
+        margin: auto auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #nav {
+        display: none;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    #quiz-section {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    #nav2 {
+        display: none;
+    }
+}
