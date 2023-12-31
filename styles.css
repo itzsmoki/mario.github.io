@@ -268,6 +268,11 @@ section h2 {
     display: block;
 }
 
+#ready {
+    text-align: center;
+    margin: 0 auto;
+}
+
 form p {
     font-size: 90%;
     color: black;
