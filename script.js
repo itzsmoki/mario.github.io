@@ -22,7 +22,7 @@ function reset() {
 }
 
 function quiz(answer, id) {
-    let answers = ["1985", "70", "Isle Delfino", "New Donk City", "Super Mario Galaxy", "Bob-omb Battlefield", "Mario Kart 8", "Rainbow Ride", "Super Mario RPG: Legend of the Seven Stars", "Cascade Kingdom"];
+    let answers = ["1985", "70", "Isle Delfino", "New Donk City", "Super Mario Galaxy", "Bob-omb Battlefield", "Mario Kart 8", "Rainbow Ride", "Super Mario RPG", "Cascade Kingdom"];
     let buttons = document.getElementsByClassName("buttons");
     let next_buttons = document.getElementsByClassName("next");
 
