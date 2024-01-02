@@ -63,6 +63,7 @@ function quiz(answer, id) {
 }
 
 function nextFunction() {
+    let next_buttons = document.getElementsByClassName("next");
     let buttons = document.getElementsByClassName("buttons");
     for (let j = 0; j < buttons.length; j++) {
         buttons[j].disabled = false;
@@ -76,6 +77,9 @@ function nextFunction() {
     quiz_questions[counter + 1].style.display = "block";
     counter++;
     current++;
+    if (counter == 9) {
+    next_buttons[9].textContent = "Results";
+}
     if (counter == questionsTotal) {
         updateProgress();
     }
