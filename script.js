@@ -77,8 +77,8 @@ function nextFunction() {
     quiz_questions[counter + 1].style.display = "block";
     counter++;
     current++;
-    if (counter == 9) {
-    next_buttons[9].value = "Results";
+    if (counter == questionsTotal - 1) {
+        next_buttons[questionsTotal - 1].value = "Results";
 }
     if (counter == questionsTotal) {
         updateProgress();
