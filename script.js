@@ -3,7 +3,7 @@ let wrong = 0;
 let counter = 0;
 let current = 0;
 const questionsTotal = 10;
-finalButton = 9;
+let finalButton = 9;
 
 function reset() {
     let buttons = document.getElementsByClassName("buttons");
