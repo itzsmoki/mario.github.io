@@ -77,6 +77,7 @@ function nextFunction() {
     quiz_questions[counter].style.display = "none";
     quiz_questions[counter + 1].style.display = "block";
     counter++;
+    counter++;
     if (counter === finalButton) {
         next_buttons[finalButton].textContent = "Results";
 }
