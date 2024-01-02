@@ -2,7 +2,8 @@ let guess = 0;
 let wrong = 0;
 let counter = 0;
 let current = 0;
-const questionsTotal = 10
+const questionsTotal = 10;
+finalButton = 9;
 
 function reset() {
     let buttons = document.getElementsByClassName("buttons");
@@ -76,9 +77,8 @@ function nextFunction() {
     quiz_questions[counter].style.display = "none";
     quiz_questions[counter + 1].style.display = "block";
     counter++;
-    current++;
-    if (counter === (questionsTotal - 1)) {
-        next_buttons[questionsTotal - 1].textContent = "Results";
+    if (counter === finalButton) {
+        next_buttons[finalButton].textContent = "Results";
 }
     if (counter == questionsTotal) {
         updateProgress();
