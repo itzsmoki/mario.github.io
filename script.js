@@ -78,7 +78,7 @@ function nextFunction() {
     counter++;
     current++;
     if (counter == 9) {
-    next_buttons[9].textContent = "Results";
+    next_buttons[9].value = "Results";
 }
     if (counter == questionsTotal) {
         updateProgress();
