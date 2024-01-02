@@ -63,6 +63,7 @@ function quiz(answer, id) {
 }
 
 function nextFunction() {
+    let next_buttons = document.getElementsByClassName("next");
     let buttons = document.getElementsByClassName("buttons");
     for (let j = 0; j < buttons.length; j++) {
         buttons[j].disabled = false;
@@ -77,7 +78,7 @@ function nextFunction() {
     counter++;
     current++;
     if (counter === (questionsTotal - 1)) {
-        buttons[questionsTotal - 1].textContent = "Results";
+        next_buttons[questionsTotal - 1].textContent = "Results";
 }
     if (counter == questionsTotal) {
         updateProgress();
