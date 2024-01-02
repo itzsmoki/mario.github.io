@@ -108,7 +108,7 @@ function updateProgress() {
     if (progress == 100) {
         quiztext.textContent = "Perfect!";
     } else if (progress > 60) {
-        quiztext.textContent = "Well Done!";
+        quiztext.textContent = "Well done!";
     } else {
         quiztext.textContent = "Try again!";
     }
